@@ -49,35 +49,3 @@ def gerar_keyword():
 	print(color.BLUE + " \n[+] ► File saved as: wordlist.txt")
 if argument.keywords:
 	gerar_keyword()
-
-
-
-
-
-
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
