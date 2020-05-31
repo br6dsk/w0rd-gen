@@ -18,7 +18,7 @@ banner = """
 
 """
 os.system('cls' if os.name == 'nt' else 'clear')
-print(color.BLUE + banner)
+print(color.YELLOW + banner)
 parser = argparse.ArgumentParser()
 parser.add_argument("--keywords", action='store', help='Help us')
 parser.add_argument("--columns", type=int, action='store', help='Keyword columns')
@@ -42,7 +42,7 @@ def gerar_keyword():
 			not_array_number.append(get[i])		
 		file = open('wordlist.txt', 'a')
 	write = file.writelines("\n".join(not_array_number))
-	print(color.BLUE +" \n[+] Finished [+]")
-	print(color.BLUE + " \n[+] ► File saved as: wordlist.txt")
+	print(color.YELLOW +" \n[+] Finished [+]")
+	print(color.YELLOW + " \n[+] ► File saved as: wordlist.txt")
 if argument.keywords:
 	gerar_keyword()
