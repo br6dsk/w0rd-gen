@@ -11,8 +11,8 @@ banner = """
  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝  ╚═════╝ 
                                             
 
- ► Coded 4Study by: brndsk
- ► Github: github.com/brndsk
+ ► Coded 4Study by: br6dsk
+ ► Github: github.com/br6dsk
  ► Use: w0rdg.py --threads 10 --keywords "keyword1 keyword2..." --columns COLUMNS
  ► Ex: w0rdg.py --threads 10 --keywords "love pass 1 2 3" --columns 4
 
